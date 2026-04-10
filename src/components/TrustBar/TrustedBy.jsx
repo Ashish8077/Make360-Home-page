@@ -57,7 +57,7 @@ export default function TrustedBadges() {
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="h-12 object-contain grayscale group-hover:grayscale-0 transition"
+                  className="h-12 object-contain hover:scale-110 transition-transform duration-300"
                 />
               </div>
 
