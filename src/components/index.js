@@ -12,7 +12,7 @@ import AwardsSection from "./AwardsSection/AwardsSection";
 import RecognitionSlider from "./RecognitionSlider/RecognitionSlider";
 import Milestones from "./Milestones/Milestones";
 import TechStack from "./TechStack/TechStack";
-import CTASection from "./CtaSection/Ctasection";
+import CTASection from "./CTASection/CTASection";
 import IndustrySection from "./IndustrySection/IndustrySection";
 import Testimonials from "./Testimonials/Testimonials";
 import EmailCaptureSection from "./LeadSection/EmailCaptureSection";
@@ -43,5 +43,5 @@ export {
   FinalCTASection,
   LifeAtMakes360,
   TrustedSection,
-  Footer
+  Footer,
 };
