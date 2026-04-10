@@ -12,7 +12,7 @@ import AwardsSection from "./AwardsSection/AwardsSection";
 import RecognitionSlider from "./RecognitionSlider/RecognitionSlider";
 import Milestones from "./Milestones/Milestones";
 import TechStack from "./TechStack/TechStack";
-import CTASection from "./CTASection/CTASection";
+import CTASection from "./CTASection/CTASection1";
 import IndustrySection from "./IndustrySection/IndustrySection";
 import Testimonials from "./Testimonials/Testimonials";
 import EmailCaptureSection from "./LeadSection/EmailCaptureSection";
