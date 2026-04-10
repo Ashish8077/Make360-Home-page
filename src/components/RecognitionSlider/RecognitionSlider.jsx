@@ -190,11 +190,11 @@ export default function RecognitionSlider() {
           </AnimatePresence>
         </div>
 
-        {/* NAVIGATION ARROWS - Desktop */}
-        <div className="hidden lg:flex absolute top-1/2 -translate-y-1/2 w-full justify-between -mx-16 pointer-events-none">
+        {/* NAVIGATION ARROWS - Desktop (on sides) */}
+        <div className="hidden lg:block">
           <button
             onClick={handlePrev}
-            className="pointer-events-auto w-12 h-12 flex items-center justify-center bg-white hover:bg-indigo-600 text-gray-700 hover:text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
+            className="absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 w-12 h-12 flex items-center justify-center bg-white hover:bg-indigo-600 text-gray-700 hover:text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group z-10"
             aria-label="Previous"
           >
             <ChevronLeft size={24} className="group-hover:scale-110 transition" />
@@ -202,7 +202,7 @@ export default function RecognitionSlider() {
           
           <button
             onClick={handleNext}
-            className="pointer-events-auto w-12 h-12 flex items-center justify-center bg-white hover:bg-indigo-600 text-gray-700 hover:text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
+            className="absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 w-12 h-12 flex items-center justify-center bg-white hover:bg-indigo-600 text-gray-700 hover:text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group z-10"
             aria-label="Next"
           >
             <ChevronRight size={24} className="group-hover:scale-110 transition" />
